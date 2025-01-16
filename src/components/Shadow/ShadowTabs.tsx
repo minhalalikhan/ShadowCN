@@ -14,11 +14,11 @@ function ShadowTabs({ }: Props) {
              h-fit overflow-hidden gap-[10px] p-[12px]
              ">
                 <TabsTrigger value="account"
-                    className=" !bg-paper  data-[state=active]:!shadow-main "
+                    className=" !bg-paper shadow-main data-[state=active]:!shadow-none "
 
                 >Account</TabsTrigger>
                 <TabsTrigger value="password"
-                    className=" !bg-paper  data-[state=active]:!shadow-main "
+                    className=" !bg-paper  shadow-main data-[state=active]:!shadow-none "
                 >Password</TabsTrigger>
             </TabsList>
             <TabsContent value="account">
